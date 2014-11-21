@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Ciclos</title>
+	<script type="text/javascript">
+ 
+	 var c, t, b;
+	 function calcular(){
+	 	var numero = Number(t.value);
+	 	var calculo = 1;
+	 	
+	 	for(var n = 1; n <= numero; n++){
+	 		calculo = calculo * n;
+	 	}
+	 	c.innerHTML= "<strong>"+"<em>"+calculo+"</em>"+"</strong>";
+	 }
+
+	 	function inicio(){
+	 		c = document.getElementById("caja");
+	 		t = document.getElementById("alejandra");
+	 		b = document.getElementById("botoncito");
+
+	 		b.addEventListener("click", calcular);
+
+	 		// var residuo;
+	 		// var numeros = 1;
+	 		// while(numeros <= 50){
+	 		// 	residuo = numeros % 2;
+	 		// 	if(residuo == 0){
+	 		// 		c.innerHTML += " " + numeros;
+	 		// 	}
+	 		// 	numeros++;
+	 		// }
+	 	}
+	</script>
+</head>
+<body>
+
+	<input type="text" placeHolder="Tocalo!" id="alejandra" />
+	<input type="button" id="botoncito" value="Tocame~">
+
+ 		<div id="caja"></div>
+ 		<div>Otra caja</div>
+
+ <script type="text/javascript">
+	inicio();
+ </script>
+
+</body>
+</html>

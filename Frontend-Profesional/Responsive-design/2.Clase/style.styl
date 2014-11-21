@@ -1,0 +1,41 @@
+ve
+
+.Canvas
+	overflow hidden
+	position relative
+	&-main
+		padding 10px 0
+	&-menu 
+		width 200px
+		position absolute
+		left -200px
+		top 0
+		-webkit-transition all 1s ease
+		&.is-active
+			left 0	
+	&-sidebar 
+		position absolute
+		width 200px
+		right -180px
+		top 0
+		-webkit-transition all 1s ease
+		&.is-active
+			right 0	
+			
+	.Header 
+		background #141F23
+		padding 10px 0
+		color white
+		&-logo
+			text-transform uppercase
+			font-weight normal
+			text-transform
+		&-button
+			background orange
+			color white
+			border-radius 10px
+			padding 10px 
+			border none
+			position absolute
+			right 20px 	
+			top 30px

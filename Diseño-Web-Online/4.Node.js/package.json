@@ -1,0 +1,11 @@
+{
+	"name": "curso",
+	"version": "0.0.1",
+	"dependencies": {
+		"express": "4.10.x",
+		"jade": "1.7.1",
+		"swig" : "1.4.2",
+		"consolidate": "0.10.0",
+		"socket.io": "1.2.0"
+	}
+}

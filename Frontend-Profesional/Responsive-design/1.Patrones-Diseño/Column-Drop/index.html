@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width = device-width, user-scalable = no">
+	<title>Document</title>
+	<style>
+		.ColumDrop-row {
+			width: 25%;
+			display: inline-block;
+			vertical-align: top;
+			font-size: 16px;
+		}
+
+		.ColumnDrop {
+			/*font-size: 0;*/
+		}
+
+		@media screen and(max-width: 900px){
+			.ColumDrop-row {
+				width: 50%;
+			}
+		}
+
+		@media screen and(max-width: 767px){
+			.ColumnDrop {
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1>Column Drop</h1>
+	<section class="ColumnDrop">
+		<div class="ColumnDrop-row">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum voluptas consequuntur, sit quis iure, magni debitis optio adipisci architecto ipsa facere, vitae dolorem nulla incidunt deserunt sunt! Iste, accusamus, dolores.</div>
+		<div class="ColumnDrop-row">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptas repellendus eum aperiam aliquam, voluptatum eius assumenda saepe earum iusto a fuga minima voluptatibus officia tempora modi eaque ipsum commodi.</div>
+		<div class="ColumnDrop-row">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi corporis beatae repellat obcaecati facilis perferendis voluptatum nulla ipsam iusto quia consequatur veniam, voluptas eveniet dignissimos reiciendis at enim officia non.</div>
+		<div class="ColumnDrop-row">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, dolorum exercitationem fuga debitis placeat architecto tempore vero iste unde similique quaerat aliquid molestiae ratione! Dolor velit ad ratione, incidunt. Optio.</div>
+	</section>
+</body>
+</html>

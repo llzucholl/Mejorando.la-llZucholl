@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+	<title>Pokemón</title>
+    <meta charset="UTF-8"/>
+    <meta name = "description" content ="Descubre las caracteristicas de tu pokemon! :D"/>
+    <meta name = "viewport" content ="width = device-width, initial-scale = 1"/>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">    
+    <script type="text/javascript" src="js/script.js"></script>
+    <!--[if lt IE 9]>
+            <script src= "//html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+    <! [endif] -->
+</head>
+<body>
+
+	<header>
+		<h1 id="header">
+			<img class="pokemon" src="img/charmander.png">
+			<img class="pokemon" src="img/pikachu.png">
+			<img id="logo" src="img/pokelogo.png">
+			<img class="pokemon" src="img/squirtle.png">
+			<img class="pokemon" src="img/bulbasaur.png">
+		</h1>
+	</header>
+
+	<div id="mainDiv">
+			<h2 id="titulo">Conoce a tu Pokémon</h2>
+			<p>Has click en la imagen del pokemon que quieras conocer.</p>
+			<button id="charmander" type="button"><img class="button" src="img/charmander.png"></button>
+			<button id="pikachu" type="button"><img class="button" src="img/pikachu.png"></button>
+			<button id="squirtle" type="button"><img class="button" src="img/squirtle.png"></button>
+			<button id="bulbasaur" type="button"><img class="button" src="img/bulbasaur.png"></button>
+
+	</div>
+			
+	<div id="descripcionDiv">
+		<div id="pokeImg">			
+			<img id="imagenPokemon" src="img/pokeball.png"/>
+		</div>
+		<h2 id="nombrePokemon">- Nombre -</h2>
+		<p id="descripcionPokemon">- Descripción -</p>
+	</div>
+
+	<footer>ZLH || 2014 <br> Powered by: Mejorando.la</footer>
+	
+	<script type="text/javascript">
+		start();
+	</script>
+
+</body>
+</html>

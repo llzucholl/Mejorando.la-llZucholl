@@ -1,0 +1,18 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url("../img/math.png");
+	width: 100%;
+	height: 100%;
+}
+#all {
+	text-align: center;
+	margin-top: 20%;
+	background: rgba(253, 70, 70, 0.4);
+	padding: 5% 5% 10% 5%; 
+	margin: 0% 0% 0% 0%;
+	color: #FFF;
+}

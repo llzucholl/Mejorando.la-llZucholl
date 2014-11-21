@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #5DBFF8;
+}
+
+li {
+	color: #FFF;
+	font-family: Courier;
+	margin-left: 42%;
+	padding: 0;
+}
+
+h1 {
+	font-family: Courier;
+	text-align: center;
+}
+
+h2 {
+	font-family: Courier;
+	margin-top: 1%;
+	text-align: center;
+}
+
+button {
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+	margin-left: 43.5%;
+	margin-top: 3%;
+	padding: 5%;
+}
+
+#reglas {
+	background: rgba(0,0,0,0.2);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);	
+}

@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url("../img/wallpaper.png");
+}
+
+button {
+	border-radius: 5px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+	width: 7%;
+	height: 10%;
+}
+
+header {
+	background: rgba(0, 0, 0, 0.4);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+ p, #nombrePokemon{
+	color: #FFF;
+	font-family: Helvetica;
+	text-align: center;
+	margin-bottom: 1%;
+}
+
+#descripcionPokemon{
+	vertical-align: middle;
+	margin-top: -1%;
+	margin-left: 32%;
+}
+
+#nombrePokemon{
+	vertical-align: middle;
+	margin-top: -15%;
+	margin-left: 32%;
+}
+
+#header{
+	margin-left: 23.5%;
+}
+
+#imagenPokemon {
+	margin-left: 20%;
+	width: 85%;
+	height: 30%;
+}
+
+#logo{	
+	height: 55%;
+	width: 35%;
+}
+
+#mainDiv{
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 50px 50px 50px 50px;
+	height: 600px;
+	margin-left: 14%;
+	margin-top: 4%;
+	width: 935px;
+}
+
+#mainDiv, #titulo{
+	color: #FFF;
+	font-family: Helvetica;
+	text-align: center;
+}
+#pokeImg {
+	vertical-align: middle;
+	margin-top: -35%;
+	margin-left: 20%;
+	width: 25%;
+	height: 50%;
+}
+
+.button {
+	width: 90%;
+	height: 100%;
+}
+
+.pokemon{
+	height: 4.5%;
+	width: 9%;
+}
