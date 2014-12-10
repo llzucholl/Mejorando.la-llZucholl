@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Off Canvas</title>
+	<link rel="stylesheet" href="../assets/css/base.css">
+	<link rel="stylesheet" href="canvas.css">
+</head>
+<body>
+	<section class="Canvas">
+		<header class="Header verde_A is-active">
+			<h1 class="Header-logo">Off Canvas</h1>
+			<button class="Header-button is-active" id="showMenu">
+				Mostrar Menu
+			</button>
+			<button class="Header-button" id="hideMenu">
+					Ocultar Menu
+			</button>
+			<ul class="MainMenu" id="menu">
+				<li class="MainMenu-item">
+					<a href="#" class="MainMenu-link">
+						Cursos
+					</a>
+				</li>
+				<li class="MainMenu-item">
+					<a href="#" class="MainMenu-link">
+						Conferencias
+					</a>
+				</li>
+				<li class="MainMenu-item">
+					<a href="#" class="MainMenu-link">
+						Eventos
+					</a>
+				</li>
+				<li class="MainMenu-item">
+					<a href="#" class="MainMenu-link">
+						Contacto
+					</a>
+				</li>
+			</ul>
+		</header>
+		<div class="Canvas-main verde_B">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi magnam rem iusto, quas optio veritatis similique aspernatur, praesentium molestiae quisquam voluptatum vel, veniam pariatur reiciendis mollitia, consectetur deserunt obcaecati dolor.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi sed necessitatibus sapiente molestias saepe totam dolor assumenda possimus iure harum eos, praesentium dignissimos recusandae tempore dolorem perspiciatis! Illum, quidem, magnam.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas unde cumque pariatur magnam nemo inventore, minus soluta dolor aperiam quidem? Error dolorum dicta a impedit id temporibus adipisci voluptas, dolores.
+		</div>
+		<div class="Canvas-sidebar verde_C">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae maiores illum natus amet ipsam tenetur ullam vero corporis consectetur reiciendis iste fugiat accusantium, voluptates doloremque dolor labore ut! Repudiandae, impedit.
+		</div>
+	</section>
+	<script src="hammer.min.js"></script>
+	<script>
+		var $buttonShowMenu = document.getElementById('showMenu');
+		var $buttonHideMenu = document.getElementById('hideMenu');
+		var $menu = document.getElementById('menu');
+
+		var $body = document.querySelector('body');
+
+		var body = new Hammer($body);
+
+		var showMenu = function(){
+			$menu.classList.add('is-active');
+			$buttonShowMenu.classList.remove('is-active');
+			$buttonHideMenu.classList.add('is-active');
+		}
+		var hideMenu = function() {
+			$menu.classList.remove('is-active');
+			$buttonShowMenu.classList.add('is-active');
+			$buttonHideMenu.classList.remove('is-active');
+		}
+
+		$buttonHideMenu.addEventListener('click', hideMenu);
+		$buttonShowMenu.addEventListener("click", showMenu);
+
+		body.on('panright', showMenu);
+		body.on('panleft', hideMenu);
+	</script>
+</body>
+</html>

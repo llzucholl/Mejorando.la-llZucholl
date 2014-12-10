@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Layout Shifter</title>
+	<link rel="stylesheet" href="../assets/css/base.css">
+	<style>
+		.Shifter {
+			max-width: 1024px;
+			margin: 0 auto;
+		}
+		.Shifter-top {
+			margin-bottom: 20px;
+		}
+		.Shifter-bottom {
+			padding: 20px 0;
+			overflow: hidden;
+		}
+		.Shifter-column {
+			width: 50%;
+			float: left;
+		}
+		@media screen and (max-width: 1024px) {
+			.Shifter {
+				max-width: 900px;
+			}
+		}
+		@media screen and (max-width: 768px) {
+			.Shifter {
+				max-width: 600px;
+			}
+		}
+		@media screen and (max-width: 767px) {
+			.Shifter {
+				max-width: ;
+			}
+		}
+	</style>
+</head>
+<body>
+	<section class="Shifter">
+		<div class="Shifter-top verde_A">
+			<h1>Layout Shifter</h1>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, qui. Similique fugiat ipsa adipisci, maxime delectus praesentium error, veniam quis voluptatum mollitia voluptas ea accusantium. Culpa, voluptatem voluptatibus earum ab!
+		</div>
+		<div class="Shifter-bottom verde_B">
+			<div class="Shifter-column verde_A">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit cumque reiciendis quam recusandae expedita perspiciatis, nostrum est voluptatum architecto ipsum quaerat ea nulla ratione accusamus voluptas rerum ipsa, voluptates tempore.
+			</div>
+			<div class="Shifter-column verde_C">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, minus aliquid dolorem sapiente nihil illum nulla natus laborum blanditiis facilis alias explicabo repellat veniam omnis temporibus maiores dolorum quas possimus.
+			</div>
+		</div>
+	</section>
+</body>
+</html>
