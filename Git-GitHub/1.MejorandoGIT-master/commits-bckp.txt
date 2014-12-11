@@ -1,0 +1,35 @@
+commit cdc016a5c7f6178094f3ebabf9c6662b4d6ae569
+Author: llZuchöll <llzucholl@gmail.com>
+Date:   Thu Nov 20 18:03:03 2014 -0500
+
+    He vuelto!
+
+commit 35a3f4be6c482027307db7faca17be706d9f12df
+Author: llZuchöll <llzucholl@gmail.com>
+Date:   Thu Nov 20 17:41:02 2014 -0500
+
+    Agregué mi descripcion
+
+commit cbc04dc04bc2c3f2bd1a9052c3c00c7c742f5676
+Author: llZuchöll <llzucholl@gmail.com>
+Date:   Thu Nov 20 17:37:40 2014 -0500
+
+    Oshe zi
+
+commit 089a881db24b978c9f51563dd72a4c82c9090248
+Author: llZuchöll <llzucholl@gmail.com>
+Date:   Thu Nov 20 17:31:53 2014 -0500
+
+    Perfil web escrito
+
+commit bf23eb91bf550ef41f5a7f142a66d5f23c193f8b
+Author: llZuchöll <llzucholl@gmail.com>
+Date:   Thu Nov 20 17:29:23 2014 -0500
+
+    Subí foto de perfil y mi nombresilio
+
+commit 740ab5b4871d97b9376b3d7bbb332b6541bbd7de
+Author: llZuchöll <llzucholl@gmail.com>
+Date:   Thu Nov 20 17:23:06 2014 -0500
+
+    Estos son los archivos base de mi portafolio
